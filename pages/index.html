@@ -4,7 +4,120 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>홈페이지</title>
+    <link rel="stylesheet" href="/public/css/header.css">
+    <link rel="stylesheet" href="/public/css/main.css">
 </head>
 <body>
+    <div class="header-container">
+        <div class="search-container">
+            <img src="/public/assets/images/logo.png" alt="">
+            <div class="search-wrapper">
+                <select id="search-type">
+                    <option value="isbn"><span>ISBN 검색</span></option>
+                    <option value="title">제목 검색</option>
+                </select>
+                <input type="text" class="search-input" placeholder="ISBN 13자리 숫자를 입력하세요.">
+                <button class="search-btn">검색</button>
+            </div>
+            
+        </div>
+        <div class="menu-container">
+            <ul class="menu-wrapper">
+                <li id="interest-menu" class="active">
+                    <img src="/public/assets/icons/interest-menu.png" alt="">
+                </li>
+                <li id="chat-menu">
+                    <img src="/public/assets/icons/chat-menu.png" alt="">
+                </li>
+                <li id="profile-menu">
+                    <img src="/public/assets/images/profile-image.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="main-container">
+        <div class="left-container">
+            <div class="interest-container">
+                <div class="intro-wrapper">
+                    <div class="intro-title">P<span>i</span>ck<span>s</span></div>
+                    <div class="intro-content">요즘 어떤 책에 관심을 가지고 계신가요?</div>
+                </div>
+                <div class="interest-wrapper">
+                    <ul class="interest-book-wrapper">
+                        <!-- <li class="interest-book-item">
+                            <img src="/public/assets/images/book-image.png" alt="">
+                            <div class="interest-book-info">
+                                <div class="interest-book-title">책 제목</div>
+                                <div class="interest-book-author">작가</div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-container-title">책<span>소</span>식</div>
+                <ul class="post-wrapper">
+                    <!-- <li class="post-item">
+                        <img src="/public/assets/images/exampleBook.png" alt="">
+                        <div class="post-content-wrapper">
+                            <div class="post-title"></div>
+                            <div class="post-content"></div>
+                        </div>
+                    </li> -->
+                </ul>
+
+            </div>
+        </div>
+        
+        <div class="book-list-container">
+            <div class="category-container">
+                <div class="sorting-container">
+                    <button class="all-btn">전체</button>
+                    <button class="all-btn">판매 중</button>
+                    <button class="all-btn">예약 중</button>
+                    <button class="all-btn">대여 가능</button>
+                    <button class="all-btn">대여 중</button>
+                    <button class="all-btn">나눔</button>
+                </div>
+                <div class="category-select-container">
+                    <select id="category-select">
+                        <option value="all">전체</option>
+                        <option value="novel">소설</option>
+                        <option value="comic">만화</option>
+                        <option value="it">컴퓨터/IT</option>
+                        <option value="history">역사</option>
+                        <option value="science">과학</option>
+                        <option value="art">예술</option>
+                        <option value="cook">요리</option>
+                        <option value="travel">여행</option>
+                        <option value="etc">기타</option>
+                    </select>
+                </div>
+            </div>
+            <div class="book-list-content">
+                <ul class="book-list-wrapper">
+                    <!-- <li class="book-item">
+                        <img src="/public/assets/images/exampleBook.png" alt="">
+                        <div class="book-info">
+                            <div class="book-title">생활코딩! React 리액트 프로그래밍</div>
+                            <div class="book-author">이고잉 - 저자</div>
+                            <div class="book-publisher">위키북스 . 2023년 02월 22일</div>
+                            <div class="book-price-wrapper">
+                                <div class="book-sale-price">12,500원</div>
+                                <div class="book-price">정가: 25000원</div>
+                            </div>
+                            <img class="heart-icon" src="/public/assets/icons/heart-white.png" alt="">
+                            <button class="go-to-chat-btn">채팅하기</button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="create-button-container">
+        </div>
+    </div>
+    <script src="/public/js/data.js"></script>
+    <script src="/public/js/util/index.js"></script>
 </body>
 </html>
