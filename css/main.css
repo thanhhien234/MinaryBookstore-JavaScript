@@ -199,7 +199,7 @@
 }
 #category-select{
     padding: 5px 40px 5px 20px;
-    background-image: url('/public/assets/icons/drop-down.png');
+    background-image: url('/assets/icons/drop-down.png');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 25px;
