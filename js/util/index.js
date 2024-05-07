@@ -51,7 +51,7 @@ bookList.forEach(book => {
                 <div class="book-sale-price">${book.salePrice}원</div>
                 <div class="book-price">정가: ${book.price}원</div>
             </div>
-            <img class="heart-icon" src="/public/assets/icons/heart-white.png" alt="">
+            <img class="heart-icon" src="/assets/icons/heart-white.png" alt="">
             <button class="go-to-chat-btn">채팅하기</button>
         </div>
     `;
