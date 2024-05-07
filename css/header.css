@@ -89,14 +89,16 @@ html, body {
 }
 #interest-menu img,
 #chat-menu img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 #profile-menu img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     margin-right: 10px;
     cursor: pointer;
-    border: 50%;
+    border-radius: 50%;
+    display: flex;
+    margin: 0;
 }
 
