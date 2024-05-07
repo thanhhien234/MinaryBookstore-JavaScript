@@ -71,3 +71,12 @@ searchTypeSelect.addEventListener('change', function() {
         searchInput.placeholder = "책 제목을 입력하세요.";
     }
 });
+
+
+//toggle create-btn
+const createBtn = document.querySelector(".create-btn");
+const createOptions = document.querySelector(".create-option-wrapper");
+
+createBtn.addEventListener("click", function() {
+        createOptions.classList.toggle("show");
+});
