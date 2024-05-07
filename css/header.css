@@ -20,8 +20,8 @@ html, body {
     align-items: center;;
 }
 .search-container img {
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
 }
 .search-wrapper {
     display: flex;
@@ -33,7 +33,7 @@ html, body {
 }
 #search-type {
     padding: 5px 24px 5px 5px;
-    background-image: url('./assets/icons/drop-down.png');
+    background-image: url('../assets/icons/drop-down.png');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 20px;
@@ -89,12 +89,12 @@ html, body {
 }
 #interest-menu img,
 #chat-menu img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 #profile-menu img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     cursor: pointer;
     border: 50%;
